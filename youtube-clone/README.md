@@ -1,40 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Kind of Youtube Clone
 
-First, run the development server:
+This project fetches YouTube videos based on a search query and displays them in a grid. Each video is displayed with a thumbnail, title, channel information, and views, and is clickable to watch on YouTube.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Fetches and displays YouTube videos using the YouTube Data API.
+-   Clickable video cards that open the video in a new tab.
+-   Displays channel logo, video title, channel name, and published date.
+-   Responsive grid layout using Tailwind CSS.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+-   **Next.js**: A React framework for server-side rendering.
+-   **TypeScript**: For strong typing and better code maintainability.
+-   **Tailwind CSS**: For responsive and utility-first CSS styling.
+-   **Axios**: To make API requests to YouTube Data API v3.
+-   **YouTube Data API**: To fetch video details and channel information.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Check out the live demo here: [YouTube Video Grid](https://kinda-youtube-clone.vercel.app/)
 
-## Learn More
+----------
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project helps me practice using the YouTube API, Next.js, and building a responsive UI with Tailwind CSS.
