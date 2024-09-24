@@ -20,7 +20,7 @@ This project fetches YouTube videos based on a search query and displays them in
 
 ## Live Demo
 
-Check out the live demo here: [YouTube Video Grid](https://kinda-youtube-clone.vercel.app/)
+Check out the live demo here: [Youtube Clone](https://kinda-youtube-clone.vercel.app/)
 
 ----------
 
